@@ -1,4 +1,4 @@
-package com.xiaolianhust.concurrency.thinkingInjava;
+package com.xiaolianhust.concurrency.thinkingInjava.chapter21;
 
 import java.util.Arrays;
 import java.util.concurrent.Callable;

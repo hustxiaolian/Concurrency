@@ -1,4 +1,4 @@
-package com.xiaolianhust.concurrency.thinkingInjava;
+package com.xiaolianhust.concurrency.thinkingInjava.chapter21;
 
 public class LiftOff implements Runnable {
 	public int countDown = 10;

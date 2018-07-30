@@ -1,4 +1,4 @@
-package com.xiaolianhust.concurrency.thinkingInjava;
+package com.xiaolianhust.concurrency.thinkingInjava.chapter21;
 
 class Sleeper extends Thread{
 	private String name;

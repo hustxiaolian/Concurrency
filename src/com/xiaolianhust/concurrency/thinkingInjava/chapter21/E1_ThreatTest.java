@@ -1,4 +1,4 @@
-package com.xiaolianhust.concurrency.thinkingInjava;
+package com.xiaolianhust.concurrency.thinkingInjava.chapter21;
 
 public class E1_ThreatTest implements Runnable{
 	public static int taskCount;
