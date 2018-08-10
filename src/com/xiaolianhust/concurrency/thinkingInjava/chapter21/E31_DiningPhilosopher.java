@@ -63,7 +63,7 @@ class E31_Philosopher implements Runnable{
 	/**
 	 * 非死锁版本，这里加深了我对wait()方法的理解。
 	 * 在当前线程中，可以对任意对象调用wait()方法（再次强调：必须先synchronized(obj)，才能在同步块内部调用obj.wait()）
-	 * 它的意思说：它现在因为某些原因（这个原因与obj相关）没法运行下去，我先暂时停下，等待别的大佬改变这个obj的状态，
+	 * 它的意思说：它现在因为某些原因（这个原因与obj相关，起码哪个while(condition)中的检测条件，应该是与锁对象相关的）没法运行下去，我先暂时停下，等待别的大佬改变这个obj的状态，
 	 * 然后通知唤醒我。
 	 * @throws InterruptedException
 	 */
